@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import Billing from './sections/Billing';
 import Business from './sections/Business';
 import Header from './sections/Header';
 
@@ -10,6 +11,8 @@ const App = () => {
             <Header />
 
             <Business />
+
+            <Billing />
         </div>
     );
 };
