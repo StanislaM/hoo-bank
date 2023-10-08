@@ -20,7 +20,9 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className={`${styles.flexBetween} sm:block navbar`}>
+        <div
+            className={`${styles.flexBetween} sm:block navbar ${styles.boxWidth} ${styles.paddingX} relative mx-auto z-[10000]`}
+        >
             <div className={`${styles.flexBetween}`}>
                 {/* LOGO */}
                 <div className="py-8">

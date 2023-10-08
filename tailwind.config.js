@@ -14,6 +14,9 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
     },
+    boxShadow: {
+      'center': '0px 0px 30px cyan',
+    },
     screens: {
       xs: "480px",
       ss: "620px",
