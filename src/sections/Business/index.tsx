@@ -9,7 +9,7 @@ const Business = () => {
             className={`${layout.section} ${styles.marginY} ${styles.boxWidth} ${styles.paddingX} mx-auto ${styles.flexBetween}`}
         >
             {/* PROMO */}
-            <div className="max-w-[620px] flex flex-col items-center text-center md:text-left md:items-start">
+            <div className="max-w-[620px] flex flex-col items-center  md:items-start">
                 <h2 className={`${styles.heading2}`}>
                     You do the business, we’ll handle the money.
                 </h2>

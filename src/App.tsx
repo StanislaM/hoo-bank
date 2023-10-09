@@ -1,7 +1,11 @@
+import Clients from './components/Clients';
 import Navbar from './components/Navbar';
 import Billing from './sections/Billing';
 import Business from './sections/Business';
+import CardDeal from './sections/CardDeal';
+import Feedback from './sections/Feadback';
 import Header from './sections/Header';
+import LetsTry from './sections/LetsTry';
 
 const App = () => {
     return (
@@ -13,6 +17,14 @@ const App = () => {
             <Business />
 
             <Billing />
+
+            <CardDeal />
+
+            <Feedback />
+
+            <Clients />
+
+            <LetsTry />
         </div>
     );
 };
