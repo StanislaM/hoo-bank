@@ -1,12 +1,13 @@
 import { discount, robot } from '../../assets';
 import GetStarted from '../../components/GetStarted';
 import Stats from '../../components/Stats';
+import { navLinks } from '../../constants';
 import styles, { layout } from '../../style';
 
 const Header = () => {
     return (
         <section
-            id="home"
+            id={`${navLinks[0].id}`}
             className={`relative ${layout.section} ${styles.marginY} `}
         >
             <div className={`${styles.boxWidth} ${styles.paddingX} mx-auto`}>

@@ -1,11 +1,12 @@
 import Button from '../../components/Button';
 import Features from '../../components/Features';
+import { navLinks } from '../../constants';
 import styles, { layout } from '../../style';
 
 const Business = () => {
     return (
         <section
-            id="features"
+            id={`${navLinks[1].id}`}
             className={`${layout.section} ${styles.marginY} ${styles.boxWidth} ${styles.paddingX} mx-auto ${styles.flexBetween}`}
         >
             {/* PROMO */}

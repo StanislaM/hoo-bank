@@ -1,6 +1,6 @@
 import { useCallback } from 'react';
 import styles, { layout } from '../../style';
-import { feedback } from '../../constants';
+import { feedback, navLinks } from '../../constants';
 import { quotes } from '../../assets';
 
 const Feedback = () => {
@@ -40,6 +40,7 @@ const Feedback = () => {
 
     return (
         <section
+            id={`${navLinks[3].id}`}
             className={`${layout.section} ${styles.boxWidth} ${styles.paddingX} flex-wrap mx-auto relative z-20`}
         >
             <div

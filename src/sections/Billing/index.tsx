@@ -1,9 +1,11 @@
 import { apple, bill, google } from '../../assets';
+import { navLinks } from '../../constants';
 import styles, { layout } from '../../style';
 
 const Billing = () => {
     return (
         <section
+            id={`${navLinks[2].id}`}
             className={`${layout.sectionReverse} ${styles.boxWidth} ${styles.paddingX} ${styles.flexBetween} mx-auto relative z-20 `}
         >
             <img

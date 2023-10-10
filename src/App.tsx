@@ -4,6 +4,7 @@ import Billing from './sections/Billing';
 import Business from './sections/Business';
 import CardDeal from './sections/CardDeal';
 import Feedback from './sections/Feadback';
+import Footer from './sections/Footer';
 import Header from './sections/Header';
 import LetsTry from './sections/LetsTry';
 
@@ -25,6 +26,8 @@ const App = () => {
             <Clients />
 
             <LetsTry />
+
+            <Footer />
         </div>
     );
 };
